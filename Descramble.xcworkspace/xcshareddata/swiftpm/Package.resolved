@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "englishwords",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/KeithErmel/EnglishWords",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3de117b1f41a265d49760739085de708fcf2c243"
+      }
+    }
+  ],
+  "version" : 2
+}
