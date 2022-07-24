@@ -1,5 +1,6 @@
 import SwiftUI
 
+/// The primary view for the app.
 struct ContentView: View {
     var body: some View {
         GameView()

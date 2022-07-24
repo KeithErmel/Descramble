@@ -13,7 +13,35 @@
 		F832FC12288736E000E9B684 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F832FC11288736E000E9B684 /* Preview Assets.xcassets */; };
 		F832FC1A2887370D00E9B684 /* EnglishWords in Frameworks */ = {isa = PBXBuildFile; productRef = F832FC192887370D00E9B684 /* EnglishWords */; };
 		F832FC1E288740B400E9B684 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832FC1D288740B400E9B684 /* GameView.swift */; };
+		F832FC28288ADEFC00E9B684 /* DescrambleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832FC27288ADEFC00E9B684 /* DescrambleTests.swift */; };
+		F832FC36288AEDC400E9B684 /* View+Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832FC35288AEDC400E9B684 /* View+Logger.swift */; };
+		F832FC38288AF5AF00E9B684 /* View+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832FC37288AF5AF00E9B684 /* View+Modifiers.swift */; };
+		F832FC3A288D951A00E9B684 /* DescrambleGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832FC39288D951A00E9B684 /* DescrambleGame.swift */; };
+		F832FC3C288EE6C900E9B684 /* DescrambleGame+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832FC3B288EE6C900E9B684 /* DescrambleGame+State.swift */; };
+		F8AEFF9928902A220059FAA6 /* GameTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEFF9828902A220059FAA6 /* GameTitleView.swift */; };
+		F8AEFF9B28902A930059FAA6 /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEFF9A28902A930059FAA6 /* String+Localization.swift */; };
+		F8AEFF9D28902ABE0059FAA6 /* AppStringKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEFF9C28902ABE0059FAA6 /* AppStringKeys.swift */; };
+		F8AEFF9F28902AF10059FAA6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8AEFF9E28902AF10059FAA6 /* Localizable.strings */; };
+		F8AEFFA128902B430059FAA6 /* ImageBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEFFA028902B430059FAA6 /* ImageBook.swift */; };
+		F8AEFFA328902C290059FAA6 /* SystemImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEFFA228902C280059FAA6 /* SystemImage.swift */; };
+		F8AEFFA5289038530059FAA6 /* OutlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEFFA4289038530059FAA6 /* OutlineButton.swift */; };
+		F8AEFFA9289039DA0059FAA6 /* Color Book.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8AEFFA8289039DA0059FAA6 /* Color Book.xcassets */; };
+		F8AEFFAB28903A0A0059FAA6 /* ColorBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEFFAA28903A0A0059FAA6 /* ColorBook.swift */; };
+		F8AEFFAD28903DC00059FAA6 /* AwaitingAnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEFFAC28903DC00059FAA6 /* AwaitingAnswerView.swift */; };
+		F8AEFFAF28903E2D0059FAA6 /* ReportingResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEFFAE28903E2D0059FAA6 /* ReportingResultsView.swift */; };
+		F8AEFFB12890421E0059FAA6 /* GameLobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEFFB02890421E0059FAA6 /* GameLobbyView.swift */; };
+		F8AEFFB3289418C10059FAA6 /* DescrambleGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AEFFB2289418C10059FAA6 /* DescrambleGameTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F832FC29288ADEFC00E9B684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F832FBFF288736DF00E9B684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F832FC06288736DF00E9B684;
+			remoteInfo = Descramble;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F832FC07288736DF00E9B684 /* Descramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Descramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +50,25 @@
 		F832FC0E288736E000E9B684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F832FC11288736E000E9B684 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F832FC1D288740B400E9B684 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		F832FC25288ADEFC00E9B684 /* DescrambleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DescrambleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F832FC27288ADEFC00E9B684 /* DescrambleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescrambleTests.swift; sourceTree = "<group>"; };
+		F832FC35288AEDC400E9B684 /* View+Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Logger.swift"; sourceTree = "<group>"; };
+		F832FC37288AF5AF00E9B684 /* View+Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Modifiers.swift"; sourceTree = "<group>"; };
+		F832FC39288D951A00E9B684 /* DescrambleGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescrambleGame.swift; sourceTree = "<group>"; };
+		F832FC3B288EE6C900E9B684 /* DescrambleGame+State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DescrambleGame+State.swift"; sourceTree = "<group>"; };
+		F8AEFF9828902A220059FAA6 /* GameTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTitleView.swift; sourceTree = "<group>"; };
+		F8AEFF9A28902A930059FAA6 /* String+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
+		F8AEFF9C28902ABE0059FAA6 /* AppStringKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStringKeys.swift; sourceTree = "<group>"; };
+		F8AEFF9E28902AF10059FAA6 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		F8AEFFA028902B430059FAA6 /* ImageBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBook.swift; sourceTree = "<group>"; };
+		F8AEFFA228902C280059FAA6 /* SystemImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemImage.swift; sourceTree = "<group>"; };
+		F8AEFFA4289038530059FAA6 /* OutlineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineButton.swift; sourceTree = "<group>"; };
+		F8AEFFA8289039DA0059FAA6 /* Color Book.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Color Book.xcassets"; path = "../../../../../Downloads/Color Book.xcassets"; sourceTree = "<group>"; };
+		F8AEFFAA28903A0A0059FAA6 /* ColorBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorBook.swift; sourceTree = "<group>"; };
+		F8AEFFAC28903DC00059FAA6 /* AwaitingAnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwaitingAnswerView.swift; sourceTree = "<group>"; };
+		F8AEFFAE28903E2D0059FAA6 /* ReportingResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportingResultsView.swift; sourceTree = "<group>"; };
+		F8AEFFB02890421E0059FAA6 /* GameLobbyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameLobbyView.swift; sourceTree = "<group>"; };
+		F8AEFFB2289418C10059FAA6 /* DescrambleGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescrambleGameTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +80,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F832FC22288ADEFC00E9B684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -40,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				F832FC09288736DF00E9B684 /* Descramble */,
+				F832FC26288ADEFC00E9B684 /* DescrambleTests */,
 				F832FC08288736DF00E9B684 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				F832FC07288736DF00E9B684 /* Descramble.app */,
+				F832FC25288ADEFC00E9B684 /* DescrambleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,6 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				F832FC0E288736E000E9B684 /* Assets.xcassets */,
+				F8AEFFA8289039DA0059FAA6 /* Color Book.xcassets */,
+				F8AEFF9E28902AF10059FAA6 /* Localizable.strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -81,11 +139,82 @@
 		F832FC1C288737D500E9B684 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				F832FC0A288736DF00E9B684 /* DescrambleApp.swift */,
-				F832FC0C288736DF00E9B684 /* ContentView.swift */,
-				F832FC1D288740B400E9B684 /* GameView.swift */,
+				F8AEFFB42894237C0059FAA6 /* App */,
+				F8AEFFB8289423ED0059FAA6 /* Extensions */,
+				F8AEFFB5289423990059FAA6 /* Game */,
+				F8AEFFB7289423DC0059FAA6 /* Models */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		F832FC26288ADEFC00E9B684 /* DescrambleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F832FC2E288ADF1D00E9B684 /* Tests */,
+				F832FC27288ADEFC00E9B684 /* DescrambleTests.swift */,
+			);
+			path = DescrambleTests;
+			sourceTree = "<group>";
+		};
+		F832FC2E288ADF1D00E9B684 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F8AEFFB92894246F0059FAA6 /* Models */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		F8AEFFB42894237C0059FAA6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F832FC0A288736DF00E9B684 /* DescrambleApp.swift */,
+				F8AEFF9C28902ABE0059FAA6 /* AppStringKeys.swift */,
+				F8AEFFAA28903A0A0059FAA6 /* ColorBook.swift */,
+				F8AEFFA028902B430059FAA6 /* ImageBook.swift */,
+				F832FC0C288736DF00E9B684 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F8AEFFB5289423990059FAA6 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				F8AEFFAC28903DC00059FAA6 /* AwaitingAnswerView.swift */,
+				F8AEFFB02890421E0059FAA6 /* GameLobbyView.swift */,
+				F8AEFF9828902A220059FAA6 /* GameTitleView.swift */,
+				F832FC1D288740B400E9B684 /* GameView.swift */,
+				F8AEFFA4289038530059FAA6 /* OutlineButton.swift */,
+				F8AEFFAE28903E2D0059FAA6 /* ReportingResultsView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		F8AEFFB7289423DC0059FAA6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F832FC39288D951A00E9B684 /* DescrambleGame.swift */,
+				F832FC3B288EE6C900E9B684 /* DescrambleGame+State.swift */,
+				F8AEFFA228902C280059FAA6 /* SystemImage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F8AEFFB8289423ED0059FAA6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F832FC37288AF5AF00E9B684 /* View+Modifiers.swift */,
+				F832FC35288AEDC400E9B684 /* View+Logger.swift */,
+				F8AEFF9A28902A930059FAA6 /* String+Localization.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F8AEFFB92894246F0059FAA6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F8AEFFB2289418C10059FAA6 /* DescrambleGameTests.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +240,24 @@
 			productReference = F832FC07288736DF00E9B684 /* Descramble.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F832FC24288ADEFC00E9B684 /* DescrambleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F832FC2B288ADEFC00E9B684 /* Build configuration list for PBXNativeTarget "DescrambleTests" */;
+			buildPhases = (
+				F832FC21288ADEFC00E9B684 /* Sources */,
+				F832FC22288ADEFC00E9B684 /* Frameworks */,
+				F832FC23288ADEFC00E9B684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F832FC2A288ADEFC00E9B684 /* PBXTargetDependency */,
+			);
+			name = DescrambleTests;
+			productName = DescrambleTests;
+			productReference = F832FC25288ADEFC00E9B684 /* DescrambleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -123,6 +270,10 @@
 				TargetAttributes = {
 					F832FC06288736DF00E9B684 = {
 						CreatedOnToolsVersion = 13.4.1;
+					};
+					F832FC24288ADEFC00E9B684 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F832FC06288736DF00E9B684;
 					};
 				};
 			};
@@ -143,6 +294,7 @@
 			projectRoot = "";
 			targets = (
 				F832FC06288736DF00E9B684 /* Descramble */,
+				F832FC24288ADEFC00E9B684 /* DescrambleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -153,7 +305,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F832FC12288736E000E9B684 /* Preview Assets.xcassets in Resources */,
+				F8AEFFA9289039DA0059FAA6 /* Color Book.xcassets in Resources */,
+				F8AEFF9F28902AF10059FAA6 /* Localizable.strings in Resources */,
 				F832FC0F288736E000E9B684 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F832FC23288ADEFC00E9B684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,13 +325,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F832FC38288AF5AF00E9B684 /* View+Modifiers.swift in Sources */,
+				F832FC36288AEDC400E9B684 /* View+Logger.swift in Sources */,
+				F8AEFFAD28903DC00059FAA6 /* AwaitingAnswerView.swift in Sources */,
+				F8AEFFB12890421E0059FAA6 /* GameLobbyView.swift in Sources */,
+				F8AEFFA328902C290059FAA6 /* SystemImage.swift in Sources */,
 				F832FC0D288736DF00E9B684 /* ContentView.swift in Sources */,
 				F832FC1E288740B400E9B684 /* GameView.swift in Sources */,
+				F832FC3C288EE6C900E9B684 /* DescrambleGame+State.swift in Sources */,
+				F8AEFFAF28903E2D0059FAA6 /* ReportingResultsView.swift in Sources */,
+				F832FC3A288D951A00E9B684 /* DescrambleGame.swift in Sources */,
 				F832FC0B288736DF00E9B684 /* DescrambleApp.swift in Sources */,
+				F8AEFFA128902B430059FAA6 /* ImageBook.swift in Sources */,
+				F8AEFFA5289038530059FAA6 /* OutlineButton.swift in Sources */,
+				F8AEFFAB28903A0A0059FAA6 /* ColorBook.swift in Sources */,
+				F8AEFF9928902A220059FAA6 /* GameTitleView.swift in Sources */,
+				F8AEFF9B28902A930059FAA6 /* String+Localization.swift in Sources */,
+				F8AEFF9D28902ABE0059FAA6 /* AppStringKeys.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F832FC21288ADEFC00E9B684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8AEFFB3289418C10059FAA6 /* DescrambleGameTests.swift in Sources */,
+				F832FC28288ADEFC00E9B684 /* DescrambleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F832FC2A288ADEFC00E9B684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F832FC06288736DF00E9B684 /* Descramble */;
+			targetProxy = F832FC29288ADEFC00E9B684 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F832FC13288736E000E9B684 /* Debug */ = {
@@ -293,7 +485,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Descramble/Preview Content\"";
 				DEVELOPMENT_TEAM = FXDEJKWFB6;
 				ENABLE_PREVIEWS = YES;
@@ -323,7 +515,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Descramble/Preview Content\"";
 				DEVELOPMENT_TEAM = FXDEJKWFB6;
 				ENABLE_PREVIEWS = YES;
@@ -347,6 +539,44 @@
 			};
 			name = Release;
 		};
+		F832FC2C288ADEFC00E9B684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = FXDEJKWFB6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keith.ermel.DescrambleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Descramble.app/Descramble";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		F832FC2D288ADEFC00E9B684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = FXDEJKWFB6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keith.ermel.DescrambleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Descramble.app/Descramble";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -364,6 +594,15 @@
 			buildConfigurations = (
 				F832FC16288736E000E9B684 /* Debug */,
 				F832FC17288736E000E9B684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F832FC2B288ADEFC00E9B684 /* Build configuration list for PBXNativeTarget "DescrambleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F832FC2C288ADEFC00E9B684 /* Debug */,
+				F832FC2D288ADEFC00E9B684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

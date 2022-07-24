@@ -1,0 +1,9 @@
+
+"app_title" = "Descramble";
+"play_game" = "PLAY GAME";
+"exit_game" = "EXIT GAME";
+"play_again" = "PLAY AGAIN";
+"correct_answer" = "THAT'S CORRECT";
+"wrong_answer" = "Sorry, that's not correct";
+"answer_placeholder" = "descramble the word";
+"submit_answer" = "SUBMIT ANSWER";
